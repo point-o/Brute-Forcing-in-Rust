@@ -7,7 +7,7 @@ fn main() {
     let mut input = String::new();
     io::stdin()
         .read_line(&mut input)
-        .expect("fuck");
+        .expect("this is bad");
 
     let something = input.trim(); 
     let mut copy: String = ' '.to_string();
