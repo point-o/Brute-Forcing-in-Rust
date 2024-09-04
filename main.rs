@@ -32,5 +32,5 @@ fn main() {
         println!();
     }
     let duration = start.elapsed();
-    println!("Your message has been ASCII brute forced in {:?} (fuck you)", duration);
+    println!("Your message has been ASCII brute forced in {:?}", duration);
 }
